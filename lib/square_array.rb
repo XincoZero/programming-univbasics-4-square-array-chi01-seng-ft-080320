@@ -1,6 +1,5 @@
 def square_array(array)
-  array = [1, 2, 3]
-  while array do 
-    puts square_array(array)
-  end 
+  new_array = []
+  array.each{|a| new_array.push(a*a)}
+  return new_array
 end
