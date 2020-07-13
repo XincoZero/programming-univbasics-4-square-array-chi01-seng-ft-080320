@@ -1,3 +1,4 @@
 def square_array(array)
-  while do 
+  while sqaure_array do 
+    puts sqaure_array(array)
 end
